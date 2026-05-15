@@ -1,10 +1,7 @@
 #  AdidopShop - ASP.NET Core MVC & Tailwind CSS v4
 
-Dự án Website bán hàng sử dụng .NET 9 và Tailwind CSS v4. Hướng dẫn này giúp bạn thiết lập môi trường từ con số 0.
-
----
-
-## 🛠 1. Cài đặt phần mềm hệ thống (Chỉ làm 1 lần)
+Dự án Website bán hàng sử dụng .NET 9 và Tailwind CSS v4
+## 🛠 1. Cài đặt phần mềm hệ thống 
 
 Nếu máy bạn chưa có Node.js hoặc Yarn, hãy thực hiện các bước sau trong **PowerShell (Admin)**:
 

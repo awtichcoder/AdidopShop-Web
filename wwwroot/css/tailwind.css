@@ -1,1 +1,14 @@
-﻿@import "tailwindcss";
+﻿@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@theme {
+  --font-sans: 'Inconsolata', sans-serif;
+}
+html,
+body {
+  font-family: var(--font-sans);
+}
+@layer components {
+  .btn-primary {
+    @apply px-6 py-2 bg-blue-600 text-white rounded-lg font-bold hover:bg-blue-700 transition-all active:scale-95 shadow-md;
+  }
+}

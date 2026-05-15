@@ -5,7 +5,7 @@ Dự án Website bán hàng sử dụng .NET 9 và Tailwind CSS v4
 
 Nếu máy bạn chưa có Node.js hoặc Yarn, hãy thực hiện các bước sau trong **PowerShell (Admin)**:
 
-### Bước A: Cài đặt Node.js (Yêu cầu v20 trở lên)
+### Cài đặt Node.js (Yêu cầu v20 trở lên)
 Cách tốt nhất là dùng NVM để quản lý phiên bản:
 ```powershell
 # 1. Cài đặt Node 20

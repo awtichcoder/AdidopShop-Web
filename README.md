@@ -30,9 +30,10 @@ wwwroot/css/tailwind.css: File CSS gốc (Chứa @import "tailwindcss";).
 wwwroot/css/site.css: File kết quả (Đã được Tailwind dịch ra, không sửa file này).
 
 .gitignore: Đã cấu hình để không đẩy node_modules, bin, obj lên Git.
+```
 ### About Me - Thông tin về mình:
 
-###Author: AwtichCoder
+Author: AwtichCoder
 
 CV: https://cv-awtichcoder.web.app
 

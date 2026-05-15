@@ -12,11 +12,23 @@
 
 <body>
 
-    <h1 class="btn-primary">AdidopShop</h1>
+    <div id="root">
+        <div class="Content-Wrapper">
+            <header class=" bg-amber-300 w-[100%] h-[80px] ">
+                <h1>AdidopShop Header</h1>
+            </header>
+            <main class=" bg-amber-950" w-[100%] h-[calc(100vh-160px)] ">
+                @RenderBody()
+            </main>
+            <footer class=" bg-amber-500 w-[100%] h-[80px] ">
+                <h1>AdidopShop Footer</h1>
+            </footer>
+        </div>
+    </div>
 
-    @RenderBody()
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src=" ~/lib/jquery/dist/jquery.min.js">
+    </script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 

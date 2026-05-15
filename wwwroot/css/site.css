@@ -6,6 +6,9 @@
     --font-sans: 'Inconsolata', sans-serif;
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-amber-300: oklch(87.9% 0.169 91.605);
+    --color-amber-500: oklch(76.9% 0.188 70.08);
+    --color-amber-950: oklch(27.9% 0.077 45.635);
     --color-blue-600: oklch(54.6% 0.245 262.881);
     --color-blue-700: oklch(48.8% 0.243 264.376);
     --color-white: #fff;
@@ -212,6 +215,9 @@
   .contents {
     display: contents;
   }
+  .flex {
+    display: flex;
+  }
   .hidden {
     display: none;
   }
@@ -230,8 +236,23 @@
   .table-cell {
     display: table-cell;
   }
+  .h-\[80px\] {
+    height: 80px;
+  }
+  .h-\[calc\(100vh-160px\)\] {
+    height: calc(100vh - 160px);
+  }
+  .w-\[100\%\] {
+    width: 100%;
+  }
   .resize {
     resize: both;
+  }
+  .items-center {
+    align-items: center;
+  }
+  .justify-center {
+    justify-content: center;
   }
   .truncate {
     overflow: hidden;
@@ -244,6 +265,15 @@
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
+  }
+  .bg-amber-300 {
+    background-color: var(--color-amber-300);
+  }
+  .bg-amber-500 {
+    background-color: var(--color-amber-500);
+  }
+  .bg-amber-950 {
+    background-color: var(--color-amber-950);
   }
   .lowercase {
     text-transform: lowercase;

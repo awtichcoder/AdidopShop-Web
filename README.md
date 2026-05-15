@@ -1,12 +1,15 @@
-#  AdidopShop - ASP.NET Core MVC & Tailwind CSS v4
+# AdidopShop - ASP.NET Core MVC & Tailwind CSS v4
 
 Dự án Website bán hàng sử dụng .NET 9 và Tailwind CSS v4
-## 🛠 1. Cài đặt phần mềm hệ thống 
+
+## 🛠 1. Cài đặt phần mềm hệ thống
 
 Nếu máy bạn chưa có Node.js hoặc Yarn, hãy thực hiện các bước sau trong **PowerShell (Admin)**:
 
 ### Cài đặt Node.js (Yêu cầu v20 trở lên)
+
 Cách tốt nhất là dùng NVM để quản lý phiên bản:
+
 ```powershell
 # 1. Cài đặt Node 20
 nvm install 20
@@ -19,10 +22,12 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 dotnet restore
 # 5 . Cài đặt thư viện Frontend (Tailwind CSS)
 yarn install
-# 6 . Lắng nghe thay đổi giao diện (Tailwind Watch)
-yarn watch
+# 6 . chạy chương trình đã cấu hình
+yarn dev
 ```
+
 # 📁 Lưu ý về cấu trúc
+
 wwwroot/css/tailwind.css: File CSS gốc (Chứa @import "tailwindcss";).
 
 wwwroot/css/site.css: File kết quả (Đã được Tailwind dịch ra, không sửa file này).

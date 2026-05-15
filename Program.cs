@@ -10,11 +10,15 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
 }
+// Enable serving static files from wwwroot
+app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
 
 app.MapStaticAssets();
+
+
 
 app.MapControllerRoute(
     name: "default",

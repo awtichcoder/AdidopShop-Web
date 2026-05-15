@@ -1,14 +1,14 @@
 {
   "name": "adidopshop",
   "version": "1.0.0",
-  "description": "",
+  "description": "https://cv-awtichcoder.web.app",
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"yarn watch\" \"dotnet watch run\"",
     "watch": "tailwindcss -i ./wwwroot/css/tailwind.css -o ./wwwroot/css/site.css --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "AwtichDev",
   "license": "ISC",
   "devDependencies": {
     "@tailwindcss/cli": "^4.3.0",

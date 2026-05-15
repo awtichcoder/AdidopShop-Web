@@ -1,6 +1,7 @@
 ﻿@import 'tailwindcss';
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @theme {
+  --color-light-coffee: #c89f94;
   --font-sans: 'Inconsolata', sans-serif;
 }
 html,
@@ -10,5 +11,19 @@ body {
 @layer components {
   .btn-primary {
     @apply px-6 py-2 bg-blue-600 text-white rounded-lg font-bold hover:bg-blue-700 transition-all active:scale-95 shadow-md;
+  }
+  .ct-subheadline {
+    @apply flex justify-center items-center mb-24;
+  }
+
+  .ct-subheadline-deco-line {
+    @apply w-8 h-px bg-gray-200;
+  }
+
+  .ct-subheadline-deco-label {
+    @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-xs;
+  }
+  .ct-button {
+    @apply text-center uppercase tracking-wider py-4 px-8 text-sm cursor-pointer font-semibold hover:bg-white/75;
   }
 }

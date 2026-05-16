@@ -2,8 +2,32 @@
     ViewData["Title"] = "Customers Shoes | Adidop ";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<div class="Video-Slider w-full h-[500px] bg-gray-300 mb-24">
-    Video-Slider
+<div class="Video-Slider relative w-full h-screen overflow-hidden mb-24 bg-zinc-900">
+
+    <video autoplay loop muted playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
+        <source src="~/videos/videoBanner.mp4" type="video/mp4">
+        Trình duyệt của bạn không hỗ trợ thẻ video.
+    </video>
+
+    <div class="relative z-10 flex flex-col items-center justify-center h-full bg-black/40 text-center px-4">
+        <h1 class="text-white text-5xl md:text-7xl font-black uppercase tracking-tighter italic animate-pulse">
+            Adidop Collection
+        </h1>
+        <p class="text-zinc-200 mt-3 text-xl max-w-lg">
+            Sẵn sàng bứt phá cùng bộ sưu tập giày thể thao mới nhất mùa hè này.
+        </p>
+        <div class="mt-10 flex gap-4">
+            <a href="#"
+               class="bg-white text-black px-8 py-3 font-bold uppercase text-sm hover:bg-gray-200 transition-colors">
+                Xem ngay
+            </a>
+            <a href="#"
+               class="bg-transparent border-2 border-white text-white px-8 py-3 font-bold uppercase text-sm hover:bg-white hover:text-black transition-all">
+                Tìm cửa hàng
+            </a>
+        </div>
+    </div>
+
 </div>
 <div class="Customize-Shoes">
     Customize-Shoes
